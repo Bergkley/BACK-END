@@ -8,7 +8,7 @@
       "start": "ts-node src/index.ts",
       "typeorm": "typeorm-ts-node-commonjs"
    },
-   "author": "",
+   "author": "bergkley",
    "license": "ISC",
    "dependencies": {
       "@fastify/cors": "^8.4.1",
