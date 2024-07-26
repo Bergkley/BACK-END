@@ -1,0 +1,31 @@
+{
+  "name": "api-cadastro-pessoa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "prisma": "^5.17.0",
+    "typescript": "^5.5.3"
+  },
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bergkley/API-CADASTRO-PESSOA.git"
+  },
+  "keywords": [],
+  "author": "Bergkley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bergkley/API-CADASTRO-PESSOA/issues"
+  },
+  "homepage": "https://github.com/Bergkley/API-CADASTRO-PESSOA#readme",
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "@prisma/client": "^5.17.0",
+    "fastify": "^4.28.1",
+    "tsx": "^4.16.2"
+  }
+}
